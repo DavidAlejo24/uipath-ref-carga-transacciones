@@ -74,7 +74,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="DeleteItemsInQueue" sap:VirtualizedContainerService.HintSize="593,360.65666666666664" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="DeleteItemsInQueue" sap:VirtualizedContainerService.HintSize="587,313" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:IEnumerable(ui:QueueItem)" Name="listItemsABorrar" />
     </Sequence.Variables>
@@ -85,7 +85,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:GetQueueItems Duration="{x:Null}" From="{x:Null}" Priority="{x:Null}" Reference="{x:Null}" Skip="{x:Null}" TimeoutMS="{x:Null}" To="{x:Null}" Top="{x:Null}" DisplayName="Get Queue Items" FilterStrategy="Equals" FolderPath="davidcruz4g@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="450,176" sap2010:WorkflowViewState.IdRef="GetQueueItems_1" PropsImportedIntoFilterBuilder="True" QueueItemStates="All" QueueName="COL_CONVERSIONES1">
       <ui:GetQueueItems.FilterBuilder>
-        <uasq:QueueItemFilterSettings Index="0" LogicalOperator="And">
+        <uasq:QueueItemFilterSettings Index="0" LogicalOperator="Or">
           <uasq:QueueItemFilterSettings.Filters>
             <scg:List x:TypeArguments="uasq:QueueItemFilterElement" Capacity="4">
               <uasq:QueueItemStatusFilterElementWithArg Criteria="Status" Operator="Equals">
