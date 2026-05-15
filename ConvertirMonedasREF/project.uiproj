@@ -1,0 +1,6 @@
+{
+  "Name": "ConvertirMonedasREF",
+  "ProjectType": "Process",
+  "Description": "Convertidor de monedas con Robotic Enterprise Framework",
+  "MainFile": "Main.xaml"
+}

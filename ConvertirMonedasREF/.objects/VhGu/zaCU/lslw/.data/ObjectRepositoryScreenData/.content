@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="pW8JphY4lES-EyhdX7L8Wg" Reference="gkUuAabqcUO2u7pJDqfAHQ/_g8IGfmnOkadTSkgGRx3VQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1289, 784" BrowserType="Chrome" ContentHash="jtXfZ9eqiECHN1tT23naRw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALUSURBVDhPVZFJT1NhFIb7A9zowqiIOOAPcO0IiIKsNKJxIYEFo5EEGWRqGKKhUFra24mWCmKQ2TLGyoJKkCq9gCDDZZShRQRBAinE5ev5vmqVxZPv3pN7nnve88nO5RSDceZpIY6n53NO0/PZ7CJej3yhQlSNGreq1bhpLcc1swJhljL+zuCCYOJUVgHSGm1Q9ThwoaiMJAcFN6xKTsn7bmS/bUaopfSf4GhaLtKb2yEuraCgqQ2XFBoEZRX6BezD6DoDpPVvcCxIUJDkSmWJT8BGPZKaDdvIF/TPLeBuhQknMuQUwReNCS6bnqNLGsOGdxf1o4NIttUivEr5vyAHL50u2CckRKsMCFEKCMws8AsuGp+hd17C5p4XLeMi7rzS8Wa/4DBN0D46DtfSMhod/eibncehxCd+QQQR22SFZ2cbDWODyO95gxBaJhcEZRXhZEYBYqrqkFrXisymDkRpzDiWJqdFFiPC6ttBmLkUt2sFNFAEdf87XDWVcLksOLcY54kAyh2QnscJzJSD1RmR1MyvkQinWwi1KHC9qsxfkwmSDgztlA6aKYGjJXSsTrWUoUokiZVIppOR4DIi3mWgupm/y4yzepgItVSOvnUHxK1B6GcEXjPO6PFohD4cNiOFn5VIH6uBfKIeiUNGxIkCZPppap5Sw75qh2fPg+GtYbQut9JUWppCjxRqTmJ/p+YHH1UY3l6AtOvBPacSLW6nT1AxVYEOdwfW9tdgW7ZRDA0MVGcC1hjzSYv7znLkjb/Gj187cO9vQvw5jyGCC1hedlrn6KpoioGNAZRPKvluHo9Y4NycQe/6OL56v6Nsug2NKx/QuSqSWHMwwqJ3kQu6Pd28ppxUY3rXDQc129c+Y3JnBQ+pKXHIhATRSNFMPgFDOaFEp7sTXe4u/ixIAqrnqtBMOWMHdYSAOILt5H/8AhZDS4tj/I3EiBcNviX+ubaDAjN+A43oxzqYbWLJAAAAAElFTkSuQmCC" Reference="gkUuAabqcUO2u7pJDqfAHQ/_g8IGfmnOkadTSkgGRx3VQ" Selector="&lt;html app='chrome.exe' title='Free Currency Converter | Live Currency Exchange Rates Calculator' /&gt;" Url="https://www.exchange-rates.org/converter" Version="V3">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="59eb994f4e0799b7036fa8b6ffa0401c.jpg" xmlns="">0mDGG_AH120GaTqp6_QMtFw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

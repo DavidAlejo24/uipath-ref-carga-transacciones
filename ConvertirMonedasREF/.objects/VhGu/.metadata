@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Free Currency Converter  Live Currency",
+  "Type": "App",
+  "Id": "VhGuqXOW2kGEVVPVJPXlMA",
+  "Reference": "gkUuAabqcUO2u7pJDqfAHQ/VhGuqXOW2kGEVVPVJPXlMA",
+  "Created": "2026-05-15T00:53:08.1269187Z",
+  "Updated": "2026-05-15T00:53:08.1269187Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.4.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
