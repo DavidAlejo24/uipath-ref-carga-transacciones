@@ -1,0 +1,44 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "activityDisplayName": "Bulk Add Queue Items",
+      "activityId": "BulkAddQueueItems_1",
+      "resource": "queue",
+      "key": "davidcruz4g@gmail.com's workspace.COL_CONVERSIONES1",
+      "id": "queuedavidcruz4g@gmail.com's workspace.COL_CONVERSIONES1davidcruz4g@gmail.com's workspaceFalseCOL_CONVERSIONES1False",
+      "value": {
+        "folderPath": {
+          "defaultValue": "davidcruz4g@gmail.com's workspace",
+          "isExpression": false,
+          "displayName": "Folder Path"
+        },
+        "name": {
+          "defaultValue": "COL_CONVERSIONES1",
+          "isExpression": false,
+          "displayName": "Queue name"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2"
+      }
+    },
+    {
+      "activityDisplayName": "Download Storage File",
+      "activityId": "DownloadStorageFile_1",
+      "resource": "bucket",
+      "key": "Requerimientos",
+      "id": "bucketRequerimientosRequerimientosFalse",
+      "value": {
+        "name": {
+          "defaultValue": "Requerimientos",
+          "isExpression": false,
+          "displayName": "Storage Bucket Name"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2"
+      }
+    }
+  ]
+}

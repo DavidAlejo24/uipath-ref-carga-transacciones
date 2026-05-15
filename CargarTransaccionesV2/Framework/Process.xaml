@@ -86,7 +86,7 @@
       <AssemblyReference>System.Data.Common</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="926,912" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="733,1089" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -100,6 +100,11 @@
         </InArgument>
       </ui:LogMessage.Message>
     </ui:LogMessage>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="DeleteItemsInQueue - Invoke Workflow File (Utils\\DeleteItemsInQueue.xaml)" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Utils\\DeleteItemsInQueue.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
     <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Reference" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="450,221" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1">
       <ui:AddDataColumn.DataTable>
         <InArgument x:TypeArguments="sd:DataTable">
@@ -107,14 +112,14 @@
         </InArgument>
       </ui:AddDataColumn.DataTable>
     </ui:AddDataColumn>
-    <ui:InvokeCode ContinueOnError="{x:Null}" Code="// Suponiendo que tu ID real está en una columna llamada &quot;ID_Original&quot;&#xD;&#xA;foreach(DataRow row in dt.Rows)&#xD;&#xA;{&#xD;&#xA;    row[&quot;Reference&quot;] = row[&quot;IdTransaccion&quot;].ToString();&#xD;&#xA;}" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="InvokeCode_1" Language="CSharp">
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="// Suponiendo que tu ID real está en una columna llamada &quot;ID_Original&quot;&#xA;foreach(DataRow row in dt.Rows)&#xA;{&#xA;    row[&quot;Reference&quot;] = row[&quot;IdTransaccion&quot;].ToString();&#xA;}" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="450,197" sap2010:WorkflowViewState.IdRef="InvokeCode_2" Language="CSharp">
       <ui:InvokeCode.Arguments>
         <InOutArgument x:TypeArguments="sd:DataTable" x:Key="dt">
           <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">in_dt_TransactionData</CSharpReference>
         </InOutArgument>
       </ui:InvokeCode.Arguments>
     </ui:InvokeCode>
-    <ui:BulkAddQueueItems TimeoutMS="{x:Null}" DisplayName="Bulk Add Queue Items" FolderPath="davidcruz4g@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="450,219" sap2010:WorkflowViewState.IdRef="BulkAddQueueItems_1" QueueName="COL_CONVERSIONES">
+    <ui:BulkAddQueueItems TimeoutMS="{x:Null}" DisplayName="Bulk Add Queue Items" FolderPath="davidcruz4g@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="450,219" sap2010:WorkflowViewState.IdRef="BulkAddQueueItems_1" QueueName="COL_CONVERSIONES1">
       <ui:BulkAddQueueItems.QueueItemsDataTable>
         <InArgument x:TypeArguments="sd:DataTable">
           <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">in_dt_TransactionData</CSharpValue>
